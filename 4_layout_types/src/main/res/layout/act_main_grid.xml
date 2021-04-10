@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="5">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Продукты"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="185dp"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:text="Куплено"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_width="185dp"
+        android:layout_margin="10dp"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:text="Молоко"
+        android:layout_width="185dp"
+        android:layout_margin="10dp"
+        android:textSize="24dp" />
+    <CheckBox
+        android:id="@+id/tv4"
+        android:text="Купил?"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="24dp" />
+    <TextView
+        android:id="@+id/tv5"
+        android:text="Мясо"
+        android:layout_width="185dp"
+        android:layout_margin="10dp"
+        android:textSize="24dp" />
+    <CheckBox
+        android:id="@+id/tv6"
+        android:text="Купил?"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="24dp" />
+    <TextView
+        android:id="@+id/tv7"
+        android:text="Хлеб"
+        android:layout_width="185dp"
+        android:layout_margin="5dp"
+        android:textSize="24dp" />
+    <CheckBox
+        android:id="@+id/tv8"
+        android:text="Купил?"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textSize="24dp" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:textSize="24sp"
+        android:onClick="show_linearLayout"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:text="Назад" />
+
+</GridLayout>

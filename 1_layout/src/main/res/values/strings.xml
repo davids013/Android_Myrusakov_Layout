@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Урок 2.1 Работа с Layout</string>
+    <string name="start_textview">Суммируй!!!</string>
+    <string name="text_email">Электронная почта</string>
+    <string name="text_password">Пароль</string>
+    <string name="button_enter">Войти</string>
+    <string name="button_sum">Вычислить сумму</string>
+    <string name="TextNumber2_hint">Число 2</string>
+    <string name="TextNumber1_hint">Число 1</string>
+    <string name="greeting_prefix">\Привет,\n</string>
+    <string name="greeting_default" />
+    <string name="back_button">Назад</string>
+    <string name="sum_prefix">Результат:\n</string>
+    <string name="toast_invalid_enter">Ошибка: Пустой ввод</string>
+    <string name="nom_email">admin@admin.ru</string>
+    <string name="nom_password">123</string>
+    <string name="invalid_data">Неверный ввод</string>
+    <string name="valid_enter">Вход выполнен</string>
+    <string name="sum_format_float">"%s + %s = %.4f"</string>
+    <string name="sum_format_int">"%s + %s = %d"</string>
+</resources>
